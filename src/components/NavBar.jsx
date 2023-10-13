@@ -14,6 +14,9 @@ export default function NavBar() {
                         <h4>Skills</h4>
                     </li>
                     <li>
+                        <h4>Resume</h4>
+                    </li>
+                    <li>
                         <h4>Contact</h4>
                     </li>
                 </ul>
