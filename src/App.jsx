@@ -12,6 +12,7 @@ function App() {
     </h1>
     <h3>A developer's heart</h3>
     <h3>A leader's mind</h3>
+    <h3>A visionaries soul</h3>
     </>
   );
 }
