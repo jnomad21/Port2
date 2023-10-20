@@ -13,6 +13,8 @@ function App() {
     <h3>A developer's heart</h3>
     <h3>A leader's mind</h3>
     <h3>A visionaries soul</h3>
+
+    <h2>Wanna see?</h2>
     </>
   );
 }
