@@ -12,7 +12,7 @@ function App() {
     </h1>
     <h3>A developer's heart</h3>
     <h3>A leader's mind</h3>
-    <h3>A visionaries soul</h3>
+    <h3>A visionary's soul</h3>
 
     <h2>Wanna see?</h2>
     <h5>Projects</h5>
