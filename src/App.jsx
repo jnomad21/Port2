@@ -15,7 +15,8 @@ function App() {
     <h3>A visionaries soul</h3>
 
     <h2>Wanna see?</h2>
-    <h5>Projects-Skills</h5>
+    <h5>Projects</h5>
+    <h5>skills</h5>
 
 
     </>
