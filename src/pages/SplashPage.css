@@ -2,7 +2,13 @@
     background-color: black;
     color: white;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    
 }
 .splash-alpha{
     text-align: center;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
 }

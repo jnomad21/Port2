@@ -4,7 +4,7 @@ export default function Splash() {
         <body className="splash-body center">
             
         <div className='splash-alpha'>
-            Are you ready to meet the Jason McGrath???
+            Are you ready to meet Jason McGrath???
         </div>
         </body>
     )
