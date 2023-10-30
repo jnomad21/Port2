@@ -2,7 +2,7 @@ import NavBar from "./components/NavBar";
 import Splash from "./pages/SplashPage";
 import './index.css'
 
-function App() {
+export default function App() {
   return (
     <>
     <Splash />
@@ -10,6 +10,7 @@ function App() {
     <h1>
       Jason McGrath
     </h1>
+    
     <h3>A developer's heart</h3>
     <h3>A leader's mind</h3>
     <h3>A visionary's soul</h3>
@@ -23,4 +24,4 @@ function App() {
   );
 }
 
-export default App;
+
