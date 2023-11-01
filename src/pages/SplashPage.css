@@ -21,32 +21,19 @@
 
 .splash-beta{
     width:0px;
-    animation: showup 9s infinite;
+    visibility: hidden;
+    
 }
 .splash-kappa {
     margin-left:-355px;
-    animation: showup 9s infinite;
-    
+    visibility: hidden;
 }
 
-@keyframes showup {
-    0% {opacity:0;}
-    20% {opacity:0;}
-    80% {opacity:1;}
-    100% {opacity:0;}
+#background-video{
+    position: absolute;
+    margin-top: 0;
+    margin-left: 0;
+    z-index: -1;
+
 }
 
-@keyframes slidein {
-    0% { margin-left:-800px; }
-    20% { margin-left:-800px; }
-    35% { margin-left:0px; }
-    100% { margin-left:0px; }
-}
-
-@keyframes reveal {
-    0% {opacity:0;width:0px;}
-    20% {opacity:1;width:0px;}
-    30% {width:355px;}
-    80% {opacity:1;}
-    100% {opacity:0;width:355px;}
-}
