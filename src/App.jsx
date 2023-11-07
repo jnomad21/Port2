@@ -1,5 +1,6 @@
 import NavBar from "./components/NavBar";
 import Splash from "./pages/SplashPage";
+import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
 import './index.css'
 
 export default function App() {

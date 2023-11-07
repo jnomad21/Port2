@@ -1,5 +1,6 @@
 import './SplashPage.css';
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Splash() {
   const [showVideo, setShowVideo] = useState(false);
@@ -35,6 +36,7 @@ export default function Splash() {
         <span className={`splash-beta ${showElements ? 'visible' : 'hidden'}`}>
         &#183;&nbsp;Solutionist
         </span>
+      <Link to="/app"><button id='enter-button'>Enter</button></Link>
       </div>
     </body>
   );

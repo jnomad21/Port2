@@ -15,6 +15,7 @@
 .splash-title-container{
     text-align: center;
     display: flex;
+    flex-direction: row;
     align-content: center;
     flex-wrap: wrap;
     font-family: "caveat";
@@ -42,6 +43,6 @@
     margin-top: 0;
     margin-left: 0;
     z-index: -1;
-
 }
+
 
