@@ -29,11 +29,11 @@ export default function Splash() {
       )}
       <div className="splash-title-container">
         <span className={`splash-kappa ${showElements ? 'visible' : 'hidden'}`}>
-          Engineer
+          Engineer&nbsp;&#183;
         </span>
         &nbsp;Jason McGrath&nbsp;
         <span className={`splash-beta ${showElements ? 'visible' : 'hidden'}`}>
-          Solutionist
+        &#183;&nbsp;Solutionist
         </span>
       </div>
     </body>
