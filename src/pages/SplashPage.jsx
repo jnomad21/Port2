@@ -36,7 +36,7 @@ export default function Splash() {
         <span className={`splash-beta ${showElements ? 'visible' : 'hidden'}`}>
         &#183;&nbsp;Solutionist
         </span>
-      <Link to="/app"><button id='enter-button'>Enter</button></Link>
+      <Link to="/app"><button className={`enter-button ${showElements ? 'visible' : 'hidden'}`}>Enter</button></Link>
       </div>
     </body>
   );

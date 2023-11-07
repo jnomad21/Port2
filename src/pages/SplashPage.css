@@ -45,4 +45,11 @@
     z-index: -1;
 }
 
+.enter-button{
+    position: absolute;
+    font-size: 26px;
+    margin-top: 15vh;
+    margin-left: -10vw;
+    visibility: hidden;
+}
 
