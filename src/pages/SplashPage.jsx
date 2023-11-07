@@ -11,7 +11,7 @@ export default function Splash() {
     }, 3000);
     const elementsTimeout = setTimeout(() => {
       setShowElements(true);
-    }, 4500);
+    }, 4800);
 
     return () => {
       clearTimeout(videoTimeout);

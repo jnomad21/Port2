@@ -24,11 +24,17 @@
 .splash-beta{
     width:0px;
     visibility: hidden;
+    color: gray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 56px;
     
 }
 .splash-kappa {
     margin-left:-355px;
     visibility: hidden;
+    color: gray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 56px;
 }
 
 #background-video{
