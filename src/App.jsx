@@ -17,6 +17,10 @@ export default function App() {
     <h2>Wanna see?</h2>
     <h5>Projects</h5>
     <h5>Skills</h5>
+    
+
+
+
 
 
     </>
