@@ -20,10 +20,6 @@ export default function App() {
     <h5>Certifications</h5>
     
 
-
-
-
-
     </>
   );
 }
