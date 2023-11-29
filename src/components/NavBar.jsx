@@ -5,19 +5,19 @@ export default function NavBar() {
             <nav>
                 <ul>
                     <li>
-                        <h4>About Me</h4>
+                        <h4><a href="">About Me</a></h4>
                     </li>
                     <li>
-                        <h4>Projects</h4>
+                        <h4><a href="">Projects</a></h4>
                     </li>
                     <li>
-                        <h4>Skills</h4>
+                        <h4><a href="">Skills</a></h4>
                     </li>
                     <li>
-                        <h4>Resume</h4>
+                        <h4><a href="">Resume</a></h4>
                     </li>
                     <li>
-                        <h4>Contact</h4>
+                        <h4><a href="">Contact</a></h4>
                     </li>
                 </ul>
             </nav>
