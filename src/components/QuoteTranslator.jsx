@@ -1,8 +1,32 @@
-import './QuoteTranslator.css'
+import './QuoteTranslator.css';
+import React, { useState } from 'react';
+
 export default function QuoteTranslator() {
+
+    
+        const [isHovered, setIsHovered] = useState(false);
+      
+        const handleMouseOver = () => {
+          setIsHovered(true);
+        };
+      
+        const handleMouseOut = () => {
+          setIsHovered(false);
+        };
+
     return (
-        <div className='quote-container'>
-            <h3 className="quote-translated">"What we think of as impossible is just a quote that hasn't been enigineered yet"</h3>
+        <div 
+            className='quote-container' 
+            onMouseOver={handleMouseOver}
+            onMouseOut={handleMouseOut}>
+            <div className="quote-raw">
+                <p className='quote-text'>
+                    {isHovered 
+                    ? <span className='quote-en'>"What we think of as impossible is just something that has not been engineered yet"</span>
+                    : <span className='quote-fr'>"Ce que nous considérons comme impossible est simplement quelque chose qui n'a pas encore été conçu."</span>}
+                </p>
+                <span className="quote-attr">-JM</span>
+            </div>
         </div>
     )
 }
