@@ -3,7 +3,7 @@ export default function NavBar() {
     return (
         <div>
             <nav>
-                <ul>
+                <ul className='nav-bar-ul'>
                     <li>
                         <h4><a href="">About Me</a></h4>
                     </li>
