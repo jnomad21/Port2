@@ -9,6 +9,7 @@ export default function App() {
     <>
     <NavBar />
     <JmHeader />
+    <img src="public/JM-Portrait 2021-BW-Green.jpg" alt="" />
     <QuoteTranslator />
     </>
   );
