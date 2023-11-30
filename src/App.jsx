@@ -1,3 +1,4 @@
+import JmHeader from "./components/JmHeader";
 import NavBar from "./components/NavBar";
 import QuoteTranslator from "./components/QuoteTranslator";
 
@@ -7,15 +8,8 @@ export default function App() {
   return (
     <>
     <NavBar />
-    <div className="jm-header">
-      <h1>
-        Jason McGrath
-      </h1>
-    </div>
+    <JmHeader />
     <QuoteTranslator />
-  
-    
-
     </>
   );
 }
