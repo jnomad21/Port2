@@ -1,3 +1,7 @@
 .jm-header{
     text-align: center;
+    font-family: 'Caveat';
+}
+.jm-header h1{
+    font-size: 68px;
 }

@@ -1,9 +1,14 @@
-ul{
+.nav-bar-body{
+    height: 10vh;
+    margin-top: 2vh;
+}
+
+.nav-bar-ul{
     display:flex;
     justify-content: space-around;
 }
 
-li{
+.nav-bar-ul li{
     list-style: none;
 }
  .nav-bar-ul a{
@@ -15,10 +20,8 @@ li{
     
  }
  .nav-bar-ul li :hover{
-    background-color: gray;
-    color: white;
-    padding: 3px 10px;
-    border-radius: 8px;
+    color: black;
     transition: 0.7s;
     font-family: 'Satisfy', cursive;
+    
  }

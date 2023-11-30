@@ -2,7 +2,7 @@ import './NavBar.css'
 
 export default function NavBar() {
     return (
-        <div>
+        <div className='nav-bar-body'>
             <nav>
                 <ul className='nav-bar-ul'>
                     <li>
@@ -22,7 +22,7 @@ export default function NavBar() {
                     </li>
                 </ul>
             </nav>
-            
+            <hr />
         </div>
     )
 }
