@@ -1,3 +1,4 @@
+import BwImage from "./components/BwImage";
 import JmHeader from "./components/JmHeader";
 import NavBar from "./components/NavBar";
 import QuoteTranslator from "./components/QuoteTranslator";
@@ -9,7 +10,7 @@ export default function App() {
     <>
     <NavBar />
     <JmHeader />
-    <img src="public/JM-Portrait 2021-BW-Green.jpg" alt="" />
+    <BwImage />
     <QuoteTranslator />
     </>
   );
