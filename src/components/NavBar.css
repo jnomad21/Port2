@@ -1,6 +1,7 @@
 .nav-bar-body{
-    height: 10vh;
-    border-bottom: solid .5px rgb(184, 183, 183);
+    height: 7vh;
+    /* border-bottom: solid .5px rgb(184, 183, 183); */
+    
     /* padding-top: 1.5vh; */
 }
 
@@ -12,16 +13,18 @@
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, cursive;  
  }
  .row{
-    height: 10vh;
+    height: 7vh;
     
  }
 .row :hover{
     display: flex;
-    background-color: rgb(184, 183, 183);
+    background-color: gray;
     color: white;
-    height: 10vh;
+    height: 7vh;
     align-items: center;
     justify-content: center;
+    
+    
     
 }
 
