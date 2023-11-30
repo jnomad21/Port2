@@ -1,5 +1,17 @@
+.quote-body{
+    display:flex;
+    justify-content: center;
+}
+
 .quote-container{
     text-align: center;
+    background-color: gray;
+    width: 60vw;
+    color: white;
+    padding: 3.2%;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px black;
+    
 }
 .quote-attr{
     font-family: 'Caveat', cursive;
@@ -7,12 +19,15 @@
     margin-right: 0;
 }
 .quote-text{
-    
     font-size: 36px;
 }
 .quote-fr{
     font-family: 'Satisfy', cursive;
+    font-size: 32px;
+    
+    
 }
 .quote-en{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
 }
