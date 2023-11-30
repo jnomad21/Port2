@@ -24,8 +24,8 @@ export default function QuoteTranslator() {
                 <div className="quote-raw">
                     <p className='quote-text'>
                         {isHovered 
-                        ? <span className='quote-en'>"What we think of as impossible is just something that has not been engineered yet"</span>
-                        : <span className='quote-fr'>"Ce que nous considérons comme impossible est simplement quelque chose qui n'a pas encore été conçu."</span>}
+                        ? <span className='quote-en'>"What we think of as impossible is just something that has not yet been engineered"</span>
+                        : <span className='quote-fr'>"Ce que nous considérons comme impossible n’est que quelque chose qui n’a pas encore été conçu"</span>}
                     </p>
                     <span className="quote-attr">-JM</span>
                 </div>

@@ -21,7 +21,7 @@
  }
  .nav-bar-ul li :hover{
     color: black;
-    transition: 0.7s;
+    transition: 0.7s ease;
     font-family: 'Satisfy', cursive;
     
  }
