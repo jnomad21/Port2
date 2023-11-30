@@ -1,27 +1,31 @@
 .nav-bar-body{
     height: 10vh;
-    margin-top: 2vh;
+    border-bottom: solid .5px rgb(184, 183, 183);
+    /* padding-top: 1.5vh; */
 }
 
-.nav-bar-ul{
-    display:flex;
-    justify-content: space-around;
-}
-
-.nav-bar-ul li{
-    list-style: none;
-}
- .nav-bar-ul a{
+ .nav-bar-body a{
     text-decoration: none;
     color: black;
     font-size: 28px;
     font-weight: 500;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, cursive;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, cursive;  
+ }
+ .row{
+    height: 10vh;
     
  }
- .nav-bar-ul li :hover{
-    color: black;
-    transition: 0.7s ease;
-    font-family: 'Satisfy', cursive;
+.row :hover{
+    display: flex;
+    background-color: rgb(184, 183, 183);
+    color: white;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
     
- }
+}
+
+.row :hover :first-child {
+    color: white;
+    
+}

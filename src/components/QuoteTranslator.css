@@ -5,12 +5,11 @@
 
 .quote-container{
     text-align: center;
-    width: 60vw;
     color: gray;
     padding: 3.2%;
     border-radius: 15px;
-    
     height: 30vh;
+    width: 100%;
     
 }
 .quote-attr{

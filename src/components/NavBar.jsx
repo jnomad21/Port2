@@ -2,27 +2,24 @@ import './NavBar.css'
 
 export default function NavBar() {
     return (
-        <div className='nav-bar-body'>
-            <nav>
-                <ul className='nav-bar-ul'>
-                    <li>
+        <div className='nav-bar-body container-fluid text-center'>
+                <div className='row align-items-center '>
+                    <div className="col">
                         <a className='nav-bar-a' href="">About Me</a>
-                    </li>
-                    <li>
+                    </div>
+                    <div className="col">
                         <a className='nav-bar-a' href="">Projects</a>
-                    </li>
-                    <li>
+                    </div>
+                    <div className="col">
                         <a className='nav-bar-a' href="">Skills</a>
-                    </li>
-                    <li>
+                    </div>
+                    <div className="col">
                         <a className='nav-bar-a' href="">Resume</a>
-                    </li>
-                    <li>
+                    </div>
+                    <div className="col">
                         <a className='nav-bar-a' href="">Contact</a>
-                    </li>
-                </ul>
-            </nav>
-            <hr />
+                    </div>
+                </div>
         </div>
     )
 }
