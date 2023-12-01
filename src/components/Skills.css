@@ -1,0 +1,32 @@
+#icons{
+    width: 67vw;
+}
+
+.icon-img{
+    height: 10vh;
+    margin-top: 2vh;
+}
+.certs-cont{
+    height: 20vh;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+#cert1{
+    height: 10vw;
+}
+#cert2{
+    width: 12vw;
+}
+.cert-box{
+    text-align: center;
+    padding: 0 10px;
+}
+
+.img-box{
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2vh;
+}

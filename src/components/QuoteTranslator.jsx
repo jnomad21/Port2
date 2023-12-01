@@ -18,8 +18,8 @@ export default function QuoteTranslator() {
             onMouseOver={handleMouseOver}
             onMouseOut={handleMouseOut}>
             <div>{isHovered 
-            ?<img src="./JM-Portrait 2021.JPG" alt="" />:
-            <img src="./JM-Portrait 2021-BW-Green.jpg" alt="" />}
+            ?<img className='portraits' src="./JM-Portrait 2021.JPG" alt="" />:
+            <img className='portraits' src="./JM-Portrait 2021-BW-Green.jpg" alt="" />}
             </div>
         </div>
         <div className='quote-body'>
