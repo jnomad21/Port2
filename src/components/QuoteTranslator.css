@@ -12,20 +12,22 @@
     width: 100%;
     
 }
+
 .quote-attr{
     font-family: 'Caveat', cursive;
     position:relative;
     margin-right: 0;
 }
+
 .quote-text{
     font-size: 36px;
 }
+
 .quote-fr{
     font-family: 'Satisfy', cursive;
-    font-size: 32px;
-    
-    
+    font-size: 36px;
 }
+
 .quote-en{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #2f6f4d;
