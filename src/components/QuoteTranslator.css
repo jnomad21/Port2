@@ -33,3 +33,18 @@
     font-weight: 200;
     
 }
+
+img{
+    width: 14vw;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 1px 10px 10px black;
+    
+}
+.bw-pic{
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+}
+
+

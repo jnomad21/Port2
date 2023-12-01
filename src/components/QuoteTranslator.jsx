@@ -14,6 +14,14 @@ export default function QuoteTranslator() {
 
     return (
         <>
+        <div className="bw-pic"
+            onMouseOver={handleMouseOver}
+            onMouseOut={handleMouseOut}>
+            <div>{isHovered 
+            ?<img src="./JM-Portrait 2021.JPG" alt="" />:
+            <img src="./JM-Portrait 2021-BW-Green.jpg" alt="" />}
+            </div>
+        </div>
         <div className='quote-body'>
             <div 
                 className='quote-container' 

@@ -1,0 +1,16 @@
+.sec-hds{
+    display: flex;
+    justify-content: center;
+}
+
+.sec-text{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.app-sec{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

@@ -1,0 +1,9 @@
+.about-body{
+    width: 80vw;
+    
+}
+.custom-link {
+    text-decoration: underline; /* Add underline to make it look like a link */
+    color: red;/* Set link color to the default link color */
+    cursor: pointer; /* Change cursor on hover for better user experience */
+  }

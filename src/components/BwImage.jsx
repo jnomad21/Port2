@@ -11,11 +11,22 @@ export default function BwImage() {
         const handleMouseOut = () => {
           setIsHovered(false);
         };
+
+        const handleTouchStart = () => {
+            setIsHovered(true);
+          };
+        
+          const handleTouchEnd = () => {
+            setIsHovered(false);
+          };
+        
     
         return (
         <div className="bw-pic"
             onMouseOver={handleMouseOver}
-            onMouseOut={handleMouseOut}>
+            onMouseOut={handleMouseOut}
+            onTouchStart={handleTouchStart}
+            onTouchEnd={handleTouchEnd}>
             <div>{isHovered 
             ?<img src="./JM-Portrait 2021.JPG" alt="" />:
             <img src="./JM-Portrait 2021-BW-Green.jpg" alt="" />}
