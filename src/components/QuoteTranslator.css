@@ -6,11 +6,10 @@
 .quote-container{
     text-align: center;
     color: gray;
-    padding: 3.2%;
+    padding: 3.2% 3.2% 0 3.2%;
     border-radius: 15px;
-    height: 30vh;
+    height: 26vh;
     width: 100%;
-    
 }
 
 .quote-attr{

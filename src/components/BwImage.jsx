@@ -1,9 +1,25 @@
 import './BwImage.css'
+import React, { useState } from 'react';
 
 export default function BwImage() {
-    return (
-        <div className="bw-pic">
-            <img src="./JM-Portrait 2021-BW-Green.jpg" alt="" />
+    const [isHovered, setIsHovered] = useState(false);
+      
+        const handleMouseOver = () => {
+          setIsHovered(true);
+        };
+      
+        const handleMouseOut = () => {
+          setIsHovered(false);
+        };
+    
+        return (
+        <div className="bw-pic"
+            onMouseOver={handleMouseOver}
+            onMouseOut={handleMouseOut}>
+            <div>{isHovered 
+            ?<img src="./JM-Portrait 2021.JPG" alt="" />:
+            <img src="./JM-Portrait 2021-BW-Green.jpg" alt="" />}
+            </div>
         </div>
     )
 }

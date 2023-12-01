@@ -2,8 +2,6 @@ import './QuoteTranslator.css';
 import React, { useState } from 'react';
 
 export default function QuoteTranslator() {
-
-    
         const [isHovered, setIsHovered] = useState(false);
       
         const handleMouseOver = () => {
